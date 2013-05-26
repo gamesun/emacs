@@ -9,6 +9,13 @@ patch*
 *.patch
 *.diff
 Home.md
+.emacs.d/ac-comphist.dat
+.emacs.d/auto-save-list/
+.emacs.d/elpa/
+.emacs.d/emacs-backup/
+.emacs.d/image-dired/
+.emacs.d/tutorial/
+
 
 #################
 ## Eclipse
