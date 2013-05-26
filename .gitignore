@@ -4,6 +4,11 @@
 .w3m/
 .semanticdb/
 .srecode/
+*.elc
+patch*
+*.patch
+*.diff
+Home.md
 
 #################
 ## Eclipse
