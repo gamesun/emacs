@@ -1,10 +1,12 @@
-(setenv "HOME" "D:/emacs-24.2")
-(setenv "PATH" "D:/emacs-24.2")
+(setenv "HOME" "D:/emacs")
+(setenv "PATH" "D:/emacs")
 ;;set the default file path
 (setq default-directory "~/")
 (add-to-list 'load-path "~/.emacs.d/elisp")
-(add-to-list 'load-path "~/lisp/cedet-1.1/common")
-(add-to-list 'load-path "~/lisp/cedet-1.1/semantic")
+(add-to-list 'load-path "~/.emacs.d/elisp/cedet-1.1")
+(add-to-list 'load-path "~/.emacs.d/elisp/cedet-1.1/common")
+(add-to-list 'load-path "~/.emacs.d/elisp/cedet-1.1/ede")
+(add-to-list 'load-path "~/.emacs.d/elisp/cedet-1.1/semantic")
 (add-to-list 'load-path "~/.emacs.d/elisp/ecb-2.40")
 
 (if (and (eq system-type 'windows-nt)
