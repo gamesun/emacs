@@ -404,7 +404,8 @@ that form should be displayed.")
                             (string-to-number token))
                         (intern token))
 		    token-list)))
-	   (t (error "Bad #if expression: %s" (buffer-string)))))))
+;;	   (t (error "Bad #if expression: %s" (buffer-string)))))))
+	   (t (error "Bad #if expression") )))))
     (nreverse token-list)))
 
 ;;;-----------------------------------------------------------------
